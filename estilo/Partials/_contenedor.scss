@@ -1,0 +1,64 @@
+.contenedor {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "caja1 caja2"
+    "caja3 caja4";
+    padding: 15px;
+    gap: 15px;
+
+    .caja1 {
+        grid-area: caja1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        background-color: rgba(32, 32, 32, 0.979);
+        transition: 1s;
+    }
+
+    .caja1:hover {
+        background-color: rgb(16, 16, 70);
+        
+    }
+
+    .caja2 {
+        grid-area: caja2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        background-color: rgba(32, 32, 32, 0.979);
+        transition: 1s;
+    }
+
+    .caja2:hover {
+        background-color: rgb(16, 16, 70);
+    }
+
+    .caja3 {
+        grid-area: caja3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        background-color: rgba(32, 32, 32, 0.979);
+        transition: 1s;
+    }
+
+    .caja3:hover {
+        background-color: rgb(16, 16, 70);
+    }
+
+    .caja4 {
+        grid-area: caja4;
+        text-align: center;
+        justify-content: center;
+    }
+    
+}
