@@ -9,6 +9,10 @@
     padding: 15px;
     gap: 15px;
 
+    @include mobile {
+        flex-direction: column;
+    }
+
     .caja1 {
         grid-area: caja1;
         display: flex;
@@ -22,7 +26,6 @@
 
     .caja1:hover {
         background-color: rgb(16, 16, 70);
-        
     }
 
     .caja2 {
@@ -60,5 +63,4 @@
         text-align: center;
         justify-content: center;
     }
-    
 }

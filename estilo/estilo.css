@@ -17,6 +17,11 @@
   padding: 15px;
   gap: 15px;
 }
+@media screen and (max-width: 576px) {
+  .contenedor {
+    flex-direction: column;
+  }
+}
 .contenedor .caja1 {
   grid-area: caja1;
   display: flex;
